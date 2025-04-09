@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f9f4;
+  color: #333;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+/* header styling */
+header {
+  background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center/cover;
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #2f855a;
+  margin-top: 30px;
+}
+
+.highlight {
+  background: #e6fffa;
+  padding: 10px;
+  border-left: 5px solid #38a169;
+  margin: 20px 0;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #2f855a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer a {
+  color: #d3f9d8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* button style begin */
+button {
+  background-color: #38a169;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2f855a;
+}
+/* button style end */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2rem;
+    padding: 15px;
+  }
+
+  main {
+    margin: 30px 10px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.8rem;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  body {
+    font-size: 0.95rem;
+  }
+
+:root{
+--image-dd: images/pexels-pixabay-462162.jpg;
+}
+}
+
+
+img{
+  
+  max-width: 70%;
+  height: auto;
+  display: flex;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+  text-align: center;
+  justify-content: center;
+  /* max-width: 70%;
+  max-height: 70%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 50%;
+   */
+} 
+.span-love{
+  text-decoration: wavy;
+  font-size: large;
+  font-weight: bold;
+}
+.callacob{
+font-weight: bold;
+color: white;
+font-size: large;  
+
+}
+
+
